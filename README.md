@@ -10,4 +10,4 @@ Source project code for a complete mobile dress-up game. The game includes 20+ i
 7) AI character can randomly choose from 10 states, ranging from the most basic, just a dress equipped to the highest scoring, a dress with six make up items applied. It's user's luck that which state has been chosen by the AI character for a specific level.
 8) Items for users can be assigned points seperately, to give user more points if they are using weekly subscription package items or premium items.
 9) Tweaks and functionalities or a better experience such as selected state and undo functionality for each item have also been added.
-  
+10) Every item has a seperate OnClick class that decides what will happen with that particular object once its relevant button is clicked. Most items share the same functionality however this makes it a lot easier to manage different animations, effects and properties for different objects.
