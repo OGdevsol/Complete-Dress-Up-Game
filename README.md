@@ -11,3 +11,7 @@ Source project code for a complete mobile dress-up game. The game includes 20+ i
 8) Items for users can be assigned points seperately, to give user more points if they are using weekly subscription package items or premium items.
 9) Tweaks and functionalities or a better experience such as selected state and undo functionality for each item have also been added.
 10) Every item has a seperate OnClick class that decides what will happen with that particular object once its relevant button is clicked. Most items share the same functionality however this makes it a lot easier to manage different animations, effects and properties for different objects.
+11) To get a rough idea of what's going on, you just need to review 
+i) Any one of the CreateItemButtons method of InGameplayUIManager
+ii) Any one of the OnItemClick scripts
+iii) Relevant item's serializable class and initialization in LevelsSo script
